@@ -34,7 +34,7 @@ pipeline {
                     }
 
                     if (doesVersionExist('liatrio', 'ldop-logstash', TAG)) {
-                        error("LDOP Gerrit version already exists! Aborting...")
+                        error("LDOP Logstash version already exists! Aborting...")
                     }
                 }
             }
